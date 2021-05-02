@@ -1,21 +1,20 @@
-package com.jmsamples.rules;
+package com.OSL.rules;
 
-import com.jmsamples.Cart;
-import com.jmsamples.PricingRule;
-import com.jmsamples.model.Item;
-import com.jmsamples.model.Product;
+import com.OSL.Cart;
+import com.OSL.PricingRule;
+import com.OSL.model.Item;
+import com.OSL.model.Product;
 
 import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.util.List;
 
-public class XForYDiscountRule implements PricingRule {
+public class RuleDiscountXForY implements PricingRule {
 
     private Product sku;
     private int baseQuantity;
     private int chargeQuantity;
 
-    public XForYDiscountRule(Product sku, int baseQuantity, int chargeQuantity) {
+    public RuleDiscountXForY(Product sku, int baseQuantity, int chargeQuantity) {
         this.sku = sku;
         this.baseQuantity = baseQuantity;
         this.chargeQuantity = chargeQuantity;

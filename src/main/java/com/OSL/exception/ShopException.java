@@ -1,4 +1,4 @@
-package com.jmsamples.exception;
+package com.OSL.exception;
 
 public class ShopException extends Exception {
     public ShopException(String message) {

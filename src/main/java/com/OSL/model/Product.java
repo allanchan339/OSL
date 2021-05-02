@@ -1,4 +1,4 @@
-package com.jmsamples.model;
+package com.OSL.model;
 
 public enum Product {
     IPD ("IPD", "Super iPad"),

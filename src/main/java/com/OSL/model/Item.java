@@ -1,4 +1,4 @@
-package com.jmsamples.model;
+package com.OSL.model;
 
 import java.math.BigDecimal;
 import java.util.Objects;
@@ -23,6 +23,7 @@ public class Item {
     public BigDecimal getPrice() {
         return price;
     }
+
 
 
     @Override

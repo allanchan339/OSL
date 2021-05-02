@@ -1,4 +1,4 @@
-package com.jmsamples;
+package com.OSL;
 
 public interface PricingRule {
 

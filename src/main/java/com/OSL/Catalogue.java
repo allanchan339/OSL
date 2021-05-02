@@ -1,7 +1,7 @@
-package com.jmsamples;
+package com.OSL;
 
-import com.jmsamples.model.Item;
-import com.jmsamples.model.Product;
+import com.OSL.model.Item;
+import com.OSL.model.Product;
 
 import java.util.*;
 

@@ -1,19 +1,19 @@
-package com.jmsamples.rules;
+package com.OSL.rules;
 
-import com.jmsamples.Cart;
-import com.jmsamples.PricingRule;
-import com.jmsamples.model.Item;
-import com.jmsamples.model.Product;
+import com.OSL.Cart;
+import com.OSL.PricingRule;
+import com.OSL.model.Item;
+import com.OSL.model.Product;
 
 import java.math.BigDecimal;
 import java.util.List;
 
-public class FreeBundleRule implements PricingRule {
+public class RuleFreeBundle implements PricingRule {
 
     private Product sku;
     private Product skuFreeItem;
 
-    public FreeBundleRule(Product sku, Product skuFreeItem) {
+    public RuleFreeBundle(Product sku, Product skuFreeItem) {
         this.sku = sku;
         this.skuFreeItem = skuFreeItem;
     }

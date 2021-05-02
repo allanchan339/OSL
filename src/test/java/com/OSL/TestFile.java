@@ -1,17 +1,17 @@
-package com.jmsamples;
+package com.OSL;
 
-import com.jmsamples.exception.ShopException;
-import com.jmsamples.model.Product;
+import com.OSL.exception.ShopException;
+import com.OSL.model.Product;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.math.BigDecimal;
 import java.util.*;
 
-import static com.jmsamples.model.Product.*;
+import static com.OSL.model.Product.*;
 import static junit.framework.TestCase.assertEquals;
 
-public class ShoppingTest {
+public class TestFile {
 
     private Store store;
 
@@ -35,8 +35,8 @@ public class ShoppingTest {
         BigDecimal totalPrice = co.total();
 
         assertEquals(totalPrice.doubleValue() , 249.0);
-
-        System.out.println("Total is " + totalPrice);
+        System.out.println("SKU scanned: "+ co.getCartList());
+        System.out.println("Total expected: " + totalPrice);
 
     }
 
@@ -58,8 +58,8 @@ public class ShoppingTest {
         BigDecimal totalPrice = co.total();
 
         assertEquals(totalPrice.doubleValue() , 2718.95);
-
-        System.out.println("Total is " + totalPrice);
+        System.out.println("SKU scanned: "+ co.getCartList());
+        System.out.println("Total expected: " + totalPrice);
 
     }
 
@@ -77,8 +77,8 @@ public class ShoppingTest {
         BigDecimal totalPrice = co.total();
 
         assertEquals(totalPrice.doubleValue() , 1949.98);
-
-        System.out.println("Total is " + totalPrice);
+        System.out.println("SKU scanned: "+ co.getCartList());
+        System.out.println("Total expected: " + totalPrice);
 
     }
 

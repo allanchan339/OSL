@@ -1,10 +1,7 @@
-# Shopping-R-Us
+# OSL_TechTest
 
-
-## Successful Test Run
-
-![screen recording](assets/run_tests.gif "Screen shot")
-
+#Validation
+Run the TestFile 
 
 ## Problem Statement
 
